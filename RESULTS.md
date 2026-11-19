@@ -48,3 +48,19 @@ Tool parts that I chose: Part 3 and Part 4
   1 passing, 12 seconds, Lab Pizza 20261119-211632
 - Step 4.8, run 2, result, duration and pizza name:
   1 passing, 13 seconds, Lab Pizza 20261119-211940
+
+## Part B
+
+1. ใช้ Label เพราะช่องตัวเลขมี id ซ้ำกัน ทำให้เลือกช่องผิดได้ ถ้าเพิ่ม id ที่ไม่ซ้ำกันให้แต่ละช่อง จะทำให้เขียน Test และเลือก Element ได้ง่ายขึ้น
+
+2. เป็น Consistency Oracle เพราะใช้เปรียบเทียบ Tool ระหว่างหน้า Recommendation กับหน้า Admin ถ้าข้อมูลสองหน้าไม่ตรงกัน เช่น หน้าแรกแสดง Pizza cutter แต่หน้า Admin แสดง Scissors จะสามารถตรวจพบความผิดพลาดได้
+
+3. เพิ่มการตรวจสอบค่า `vegetarian` ใน API Response ว่าต้องเป็น `true` โดยต้องเข้าถึงข้อมูลจาก API หรือมีสถานะ Vegetarian แสดงบนหน้าเว็บ
+
+4. ทั้งสอง Tools สามารถรอ Element ได้โดยไม่ต้องใช้ Fixed Delay โดย Robot Framework ใช้ SeleniumLibrary ส่วน Cypress มี Automatic Retry ทำให้เขียน Test ได้สะดวก นอกจากนี้ Cypress มี Screenshots และ Video ช่วยตรวจสอบผลการทำงานได้ง่ายกว่า
+
+5. เลือก Cypress เพราะมี Automatic Retry ช่วยลดปัญหาการรอ Element และมี Screenshots กับ Video สำหรับตรวจสอบข้อผิดพลาด อีกทั้งยังสามารถใช้ Intercept เพื่อตรวจสอบ API Request และ Response ได้ด้วย
+
+6. หาก Locator ของ Calories เปลี่ยน จะต้องแก้ที่ Resource File เท่านั้น ส่วน Test File ไม่ต้องแก้ เพราะเรียกใช้ Keyword จาก Resource File ทำให้แก้ไขและดูแล Test ได้ง่ายขึ้น
+
+7. QP-01 ต้องอยู่ใน Test เดียวกัน เพราะ Cypress จะ Clear Cookies ก่อนเริ่มแต่ละ Test ซึ่ง Cookies ช่วยให้ Browser เชื่อมต่อกับ Server เดิม หากแยก Step 6 และ 7 เป็นอีก Test อาจทำให้เชื่อมต่อคนละ Server และไม่พบ Pizza ที่สร้างไว้
