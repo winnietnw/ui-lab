@@ -1,2 +1,6 @@
 - Step 0.1, Chrome version: 157.0.8103.79
 - Step 0.3, ChromeDriver version: 157.0.8103.79
+- Step 0.4, locator of Pizza, Please!: name=pizza-please
+- Step 0.4, locator of Excluded tools: css=select[multiple]
+- Step 0.4, locator of Must be vegetarian: id=default-checkbox
+- Step 0.4, locator of Custom Pizza Name: input#pizza-name
