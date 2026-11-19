@@ -21,3 +21,12 @@ Tool parts that I chose: Part 3 and Part 4
 | 5 | Please log in first. displayed | Pass |
 | 6 | Latest pizza recommendations displayed | Pass |
 | 7 | Lab Pizza 20261119-130045 found in admin list, tool=Pizza cutter | Pass |
+
+## Part 3: Robot Framework
+- robot --version: Robot Framework 7.5.1 (Python 3.10.4 on win32)
+- Step 3.2, failure message for the wrong title:
+  Title should have been 'Web Form' but was 'Web form'.
+- Step 3.8, run 1, result, elapsed time and pizza name:
+  PASS, 00:00:17.592, Lab Pizza 20261119-194540
+- Step 3.8, run 2, result, elapsed time and pizza name:
+  PASS, 00:00:19.178, Lab Pizza 20261119-194650
