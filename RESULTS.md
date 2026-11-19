@@ -40,3 +40,7 @@ Tool parts that I chose: Part 3 and Part 4
   Actual: Web form
 - Step 4.3, corrected title result:
   PASS, 1 passing, 0 failing
+- Step 4.6, tool and calories of the answer of POST /api/pizza:
+  Tool: Pizza cutter, Calories: 400
+- Step 4.7, the line of the admin list that shows your pizza:
+  Lab Pizza 20261119-210922 (tool=Pizza cutter, ingredients_number=6) (newest)
