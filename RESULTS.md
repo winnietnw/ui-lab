@@ -44,3 +44,7 @@ Tool parts that I chose: Part 3 and Part 4
   Tool: Pizza cutter, Calories: 400
 - Step 4.7, the line of the admin list that shows your pizza:
   Lab Pizza 20261119-210922 (tool=Pizza cutter, ingredients_number=6) (newest)
+- Step 4.8, run 1, result, duration and pizza name:
+  1 passing, 12 seconds, Lab Pizza 20261119-211632
+- Step 4.8, run 2, result, duration and pizza name:
+  1 passing, 13 seconds, Lab Pizza 20261119-211940
