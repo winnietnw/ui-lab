@@ -30,3 +30,8 @@ Tool parts that I chose: Part 3 and Part 4
   PASS, 00:00:17.592, Lab Pizza 20261119-194540
 - Step 3.8, run 2, result, elapsed time and pizza name:
   PASS, 00:00:19.178, Lab Pizza 20261119-194650
+
+## Part 4: Cypress
+- node --version: v22.20.0
+- npm --version: 10.9.3
+- npx cypress version: 16.2.1
