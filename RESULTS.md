@@ -1,1 +1,2 @@
-Step 0.1, Chrome version: 157.0.8103.79
+- Step 0.1, Chrome version: 157.0.8103.79
+- Step 0.3, ChromeDriver version: 157.0.8103.79
