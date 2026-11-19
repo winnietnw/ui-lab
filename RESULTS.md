@@ -35,3 +35,8 @@ Tool parts that I chose: Part 3 and Part 4
 - node --version: v22.20.0
 - npm --version: 10.9.3
 - npx cypress version: 16.2.1
+- Step 4.3, wrong title failure message:
+  Expected: Web Form
+  Actual: Web form
+- Step 4.3, corrected title result:
+  PASS, 1 passing, 0 failing
